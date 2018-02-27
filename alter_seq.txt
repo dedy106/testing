@@ -1,0 +1,254 @@
+
+-- ----------------------------
+-- Alter sequences owned by
+-- ----------------------------
+SELECT setval('"la_PNL_REPORT_ID_seq"', 24610, true);
+ALTER SEQUENCE "la_air_ID_seq"
+OWNED BY "la_air"."ID";
+SELECT setval('"la_air_ID_seq"', 13168, true);
+ALTER SEQUENCE "la_analisis_score_ID_seq"
+OWNED BY "la_analisis_score"."ID";
+SELECT setval('"la_analisis_score_ID_seq"', 396, true);
+ALTER SEQUENCE "la_analisis_score_detail_ID_seq"
+OWNED BY "la_analisis_score_detail"."ID";
+SELECT setval('"la_analisis_score_detail_ID_seq"', 5781, true);
+ALTER SEQUENCE "la_asset_zone_ID_seq"
+OWNED BY "la_asset_zone"."ID";
+SELECT setval('"la_asset_zone_ID_seq"', 316, true);
+ALTER SEQUENCE "la_att_hukum_bangunan_ID_seq"
+OWNED BY "la_att_hukum_bangunan"."ID";
+SELECT setval('"la_att_hukum_bangunan_ID_seq"', 2, false);
+ALTER SEQUENCE "la_att_hukum_lahan_ID_seq"
+OWNED BY "la_att_hukum_lahan"."ID";
+SELECT setval('"la_att_hukum_lahan_ID_seq"', 2, false);
+ALTER SEQUENCE "la_att_sengketa_bangunan_ID_seq"
+OWNED BY "la_att_sengketa_bangunan"."ID";
+SELECT setval('"la_att_sengketa_bangunan_ID_seq"', 2, false);
+ALTER SEQUENCE "la_att_sengketa_lahan_ID_seq"
+OWNED BY "la_att_sengketa_lahan"."ID";
+SELECT setval('"la_att_sengketa_lahan_ID_seq"', 2, true);
+ALTER SEQUENCE "la_attachment_ID_seq"
+OWNED BY "la_attachment"."ID";
+SELECT setval('"la_attachment_ID_seq"', 4034, true);
+ALTER SEQUENCE "la_attachment_gedung_ID_seq"
+OWNED BY "la_attachment_gedung"."ID";
+SELECT setval('"la_attachment_gedung_ID_seq"', 1364, true);
+ALTER SEQUENCE "la_attachment_group_ID_seq"
+OWNED BY "la_attachment_group"."ID";
+SELECT setval('"la_attachment_group_ID_seq"', 2, false);
+ALTER SEQUENCE "la_attachment_lahan_ID_seq"
+OWNED BY "la_attachment_lahan"."ID";
+SELECT setval('"la_attachment_lahan_ID_seq"', 1839, true);
+ALTER SEQUENCE "la_attachment_tenant_ID_seq"
+OWNED BY "la_attachment_tenant"."ID";
+SELECT setval('"la_attachment_tenant_ID_seq"', 2, false);
+ALTER SEQUENCE "la_boq_gedung_ID_seq"
+OWNED BY "la_boq_gedung"."ID";
+SELECT setval('"la_boq_gedung_ID_seq"', 253, true);
+ALTER SEQUENCE "la_boq_gedung_budget_ID_seq"
+OWNED BY "la_boq_gedung_budget"."ID";
+SELECT setval('"la_boq_gedung_budget_ID_seq"', 3, true);
+ALTER SEQUENCE "la_equipment_ID_seq"
+OWNED BY "la_equipment"."ID";
+SELECT setval('"la_equipment_ID_seq"', 1722, true);
+ALTER SEQUENCE "la_imb_ID_seq"
+OWNED BY "la_imb"."ID";
+SELECT setval('"la_imb_ID_seq"', 705, true);
+ALTER SEQUENCE "la_indikasi_prospek_bisnis_ID_seq"
+OWNED BY "la_indikasi_prospek_bisnis"."ID";
+SELECT setval('"la_indikasi_prospek_bisnis_ID_seq"', 294, true);
+ALTER SEQUENCE "la_keamanan_ID_seq"
+OWNED BY "la_keamanan"."ID";
+SELECT setval('"la_keamanan_ID_seq"', 35, true);
+ALTER SEQUENCE "la_kepemilikan_gedung_ID_seq"
+OWNED BY "la_kepemilikan_gedung"."ID";
+SELECT setval('"la_kepemilikan_gedung_ID_seq"', 19316, true);
+ALTER SEQUENCE "la_kepemilikan_lahan_ID_seq"
+OWNED BY "la_kepemilikan_lahan"."ID";
+SELECT setval('"la_kepemilikan_lahan_ID_seq"', 4848, true);
+ALTER SEQUENCE "la_kjpp_bangunan_ID_seq"
+OWNED BY "la_kjpp_bangunan"."ID";
+SELECT setval('"la_kjpp_bangunan_ID_seq"', 78, true);
+ALTER SEQUENCE "la_kjpp_lahan_ID_seq"
+OWNED BY "la_kjpp_lahan"."ID";
+SELECT setval('"la_kjpp_lahan_ID_seq"', 989, true);
+SELECT setval('"la_kriteria_ID_seq"', 2, false);
+ALTER SEQUENCE "la_lahan_kondisi_sekitar_bps_ID_seq"
+OWNED BY "la_lahan_kondisi_sekitar_bps"."ID";
+SELECT setval('"la_lahan_kondisi_sekitar_bps_ID_seq"', 206, true);
+ALTER SEQUENCE "la_lantai_gedung_ID_seq"
+OWNED BY "la_lantai_gedung"."ID";
+SELECT setval('"la_lantai_gedung_ID_seq"', 19291, true);
+ALTER SEQUENCE "la_listrik_ID_seq"
+OWNED BY "la_listrik_gedung"."ID";
+SELECT setval('"la_listrik_ID_seq"', 10362, true);
+ALTER SEQUENCE "la_listrik_lahan_ID_seq"
+OWNED BY "la_listrik_lahan"."ID";
+SELECT setval('"la_listrik_lahan_ID_seq"', 2446, true);
+ALTER SEQUENCE "la_log_ID_seq"
+OWNED BY "la_log"."ID";
+SELECT setval('"la_log_ID_seq"', 2465, true);
+ALTER SEQUENCE "la_luas_lantai_terpakai_ID_seq"
+OWNED BY "la_luas_lantai_terpakai"."ID";
+SELECT setval('"la_luas_lantai_terpakai_ID_seq"', 16332, true);
+ALTER SEQUENCE "la_nka_gedung_ID_seq"
+OWNED BY "la_nka_gedung"."ID";
+SELECT setval('"la_nka_gedung_ID_seq"', 4601, true);
+ALTER SEQUENCE "la_nka_lahan_ID_seq"
+OWNED BY "la_nka_lahan"."ID";
+SELECT setval('"la_nka_lahan_ID_seq"', 1618, true);
+ALTER SEQUENCE "la_optimasi_bangunan_detail_ID_seq"
+OWNED BY "la_optimasi_bangunan_detail"."ID";
+SELECT setval('"la_optimasi_bangunan_detail_ID_seq"', 4465, true);
+ALTER SEQUENCE "la_optimasi_bangunan_header_ID_seq"
+OWNED BY "la_optimasi_bangunan_header"."ID";
+SELECT setval('"la_optimasi_bangunan_header_ID_seq"', 19, true);
+ALTER SEQUENCE "la_optimasi_lahan_detail_ID_seq"
+OWNED BY "la_optimasi_lahan_detail"."ID";
+SELECT setval('"la_optimasi_lahan_detail_ID_seq"', 4817, true);
+ALTER SEQUENCE "la_optimasi_lahan_header_ID_seq"
+OWNED BY "la_optimasi_lahan_header"."ID";
+SELECT setval('"la_optimasi_lahan_header_ID_seq"', 21, true);
+ALTER SEQUENCE "la_overview_property_ID_PROPERTY_seq"
+OWNED BY "la_overview_property"."ID_PROPERTY";
+SELECT setval('"la_overview_property_ID_PROPERTY_seq"', 2, false);
+ALTER SEQUENCE "la_overview_property_detail_ID_PROPERTY_DETAIL_seq"
+OWNED BY "la_overview_property_detail"."ID_PROPERTY_DETAIL";
+SELECT setval('"la_overview_property_detail_ID_PROPERTY_DETAIL_seq"', 81, true);
+ALTER SEQUENCE "la_pbb_ID_seq"
+OWNED BY "la_pbb_lahan"."ID";
+SELECT setval('"la_pbb_ID_seq"', 9602, true);
+ALTER SEQUENCE "la_pbb_gedung_ID_seq"
+OWNED BY "la_pbb_gedung"."ID";
+SELECT setval('"la_pbb_gedung_ID_seq"', 3215, true);
+ALTER SEQUENCE "la_penggunaan_bangunan_ID_seq"
+OWNED BY "la_penggunaan_bangunan"."ID";
+SELECT setval('"la_penggunaan_bangunan_ID_seq"', 2847, true);
+ALTER SEQUENCE "la_penyusutan_gedung_ID_seq"
+OWNED BY "la_penyusutan_gedung"."ID";
+SELECT setval('"la_penyusutan_gedung_ID_seq"', 2, false);
+ALTER SEQUENCE "la_penyusutan_lahan_ID_seq"
+OWNED BY "la_penyusutan_lahan"."ID";
+SELECT setval('"la_penyusutan_lahan_ID_seq"', 2, false);
+SELECT setval('"la_potensi_sengketa_ID_seq"', 2, false);
+ALTER SEQUENCE "la_potensi_sengketa_bangunan_ID_seq"
+OWNED BY "la_potensi_sengketa_bangunan"."ID";
+SELECT setval('"la_potensi_sengketa_bangunan_ID_seq"', 2610, true);
+ALTER SEQUENCE "la_potensi_sengketa_lahan_ID_seq"
+OWNED BY "la_potensi_sengketa_lahan"."ID";
+SELECT setval('"la_potensi_sengketa_lahan_ID_seq"', 3607, true);
+ALTER SEQUENCE "la_property_overview_ID_seq"
+OWNED BY "la_property_overview"."ID";
+SELECT setval('"la_property_overview_ID_seq"', 3, true);
+ALTER SEQUENCE "la_quick_win_ID_seq"
+OWNED BY "la_quick_win"."ID";
+SELECT setval('"la_quick_win_ID_seq"', 2, false);
+ALTER SEQUENCE "la_quick_win_detail_ID_seq"
+OWNED BY "la_quick_win_detail"."ID";
+SELECT setval('"la_quick_win_detail_ID_seq"', 2, false);
+SELECT setval('"la_raw_sap_actual_ID_seq"', 2241, true);
+SELECT setval('"la_raw_sap_budget_ID_seq"', 3494, true);
+ALTER SEQUENCE "la_raw_sap_budget_ID_seq1"
+OWNED BY "la_raw_sap_budget"."ID";
+SELECT setval('"la_raw_sap_budget_ID_seq1"', 87826, true);
+ALTER SEQUENCE "la_raw_sasp_actual_ID_seq"
+OWNED BY "la_raw_sap_actual"."ID";
+SELECT setval('"la_raw_sasp_actual_ID_seq"', 185600, true);
+ALTER SEQUENCE "la_ref_analisis_score_indikator_ID_seq"
+OWNED BY "la_ref_analisis_score_indikator"."ID";
+SELECT setval('"la_ref_analisis_score_indikator_ID_seq"', 2, false);
+ALTER SEQUENCE "la_ref_analisis_score_klasifikasi_ID_seq"
+OWNED BY "la_ref_analisis_score_klasifikasi"."ID";
+SELECT setval('"la_ref_analisis_score_klasifikasi_ID_seq"', 2, false);
+ALTER SEQUENCE "la_ref_coa_ID_seq"
+OWNED BY "la_ref_coa"."ID";
+SELECT setval('"la_ref_coa_ID_seq"', 379, true);
+SELECT setval('"la_ref_group_tenant_ID_seq"', 2, false);
+ALTER SEQUENCE "la_ref_gsd_unit_ID_seq"
+OWNED BY "la_ref_gsd_unit"."ID";
+SELECT setval('"la_ref_gsd_unit_ID_seq"', 62, true);
+ALTER SEQUENCE "la_ref_indikasi_kegiatan_ID_seq"
+OWNED BY "la_ref_indikasi_kegiatan"."ID";
+SELECT setval('"la_ref_indikasi_kegiatan_ID_seq"', 2, false);
+ALTER SEQUENCE "la_ref_inflasi_ID_seq"
+OWNED BY "la_ref_inflasi"."ID";
+SELECT setval('"la_ref_inflasi_ID_seq"', 2, false);
+ALTER SEQUENCE "la_ref_pengelolaan_ID_seq"
+OWNED BY "la_ref_pengelolaan"."ID";
+SELECT setval('"la_ref_pengelolaan_ID_seq"', 14, true);
+ALTER SEQUENCE "la_ref_pulau_ID_seq"
+OWNED BY "la_ref_pulau"."ID";
+SELECT setval('"la_ref_pulau_ID_seq"', 2, false);
+ALTER SEQUENCE "la_ref_road_condition_index_ID_seq"
+OWNED BY "la_ref_road_condition_index"."ID";
+SELECT setval('"la_ref_road_condition_index_ID_seq"', 2, false);
+SELECT setval('"la_ref_setting_cost_element_ID_seq"', 105, true);
+SELECT setval('"la_ref_setting_roa_ID_seq"', 4, true);
+ALTER SEQUENCE "la_ref_settings_analisis_score_ID_seq"
+OWNED BY "la_ref_settings_analisis_score"."ID";
+SELECT setval('"la_ref_settings_analisis_score_ID_seq"', 2, false);
+ALTER SEQUENCE "la_ref_settings_pg_ID_seq"
+OWNED BY "la_ref_settings_pg"."ID";
+SELECT setval('"la_ref_settings_pg_ID_seq"', 2, false);
+ALTER SEQUENCE "la_ref_sosial_ekonomi_ID_seq"
+OWNED BY "la_ref_sosial_ekonomi"."ID";
+SELECT setval('"la_ref_sosial_ekonomi_ID_seq"', 2, false);
+ALTER SEQUENCE "la_ref_status_kepemilikan_ID_seq"
+OWNED BY "la_ref_status_kepemilikan"."ID";
+SELECT setval('"la_ref_status_kepemilikan_ID_seq"', 2, false);
+ALTER SEQUENCE "la_ref_telkom_regional_ID_seq"
+OWNED BY "la_ref_telkom_regional"."ID";
+SELECT setval('"la_ref_telkom_regional_ID_seq"', 9, false);
+ALTER SEQUENCE "la_ref_wilayah_telkom_ID_seq"
+OWNED BY "la_ref_wilayah_telkom"."ID";
+SELECT setval('"la_ref_wilayah_telkom_ID_seq"', 197, true);
+ALTER SEQUENCE "la_restricted_area_ID_seq"
+OWNED BY "la_restricted_area"."ID";
+SELECT setval('"la_restricted_area_ID_seq"', 2222, true);
+ALTER SEQUENCE "la_roa_bangunan_detail_ID_seq"
+OWNED BY "la_roa_bangunan_detail"."ID";
+SELECT setval('"la_roa_bangunan_detail_ID_seq"', 4465, true);
+ALTER SEQUENCE "la_roa_bangunan_header_ID_seq"
+OWNED BY "la_roa_bangunan_header"."ID";
+SELECT setval('"la_roa_bangunan_header_ID_seq"', 22, true);
+ALTER SEQUENCE "la_roa_lahan_detail_ID_seq"
+OWNED BY "la_roa_lahan_detail"."ID";
+SELECT setval('"la_roa_lahan_detail_ID_seq"', 4879, true);
+ALTER SEQUENCE "la_roa_lahan_header_ID_seq"
+OWNED BY "la_roa_lahan_header"."ID";
+SELECT setval('"la_roa_lahan_header_ID_seq"', 22, true);
+ALTER SEQUENCE "la_roi_parameter_ID_seq"
+OWNED BY "la_roi_parameter"."ID";
+SELECT setval('"la_roi_parameter_ID_seq"', 2, false);
+ALTER SEQUENCE "la_sap_actual_ID_seq"
+OWNED BY "la_sap_actual"."ID";
+SELECT setval('"la_sap_actual_ID_seq"', 195433, true);
+ALTER SEQUENCE "la_sap_budget_ID_seq"
+OWNED BY "la_sap_budget"."ID";
+SELECT setval('"la_sap_budget_ID_seq"', 322297, true);
+ALTER SEQUENCE "la_sertipikat_ID_seq"
+OWNED BY "la_sertipikat"."ID";
+SELECT setval('"la_sertipikat_ID_seq"', 7613, true);
+ALTER SEQUENCE "la_status_hukum_ID_seq"
+OWNED BY "la_status_hukum_lahan"."ID";
+SELECT setval('"la_status_hukum_ID_seq"', 3487, true);
+ALTER SEQUENCE "la_status_hukum_gedung_ID_seq"
+OWNED BY "la_status_hukum_gedung"."ID";
+SELECT setval('"la_status_hukum_gedung_ID_seq"', 2489, true);
+ALTER SEQUENCE "la_tenant_ID_seq"
+OWNED BY "la_tenant"."ID";
+SELECT setval('"la_tenant_ID_seq"', 3363, true);
+ALTER SEQUENCE "la_tenant_all_ID_seq"
+OWNED BY "la_tenant_all"."ID";
+SELECT setval('"la_tenant_all_ID_seq"', 184342, true);
+ALTER SEQUENCE "la_tenant_listrik_ID_seq"
+OWNED BY "la_tenant_listrik"."ID";
+SELECT setval('"la_tenant_listrik_ID_seq"', 2, false);
+ALTER SEQUENCE "la_user_USER_ID_seq"
+OWNED BY "la_user"."USER_ID";
+SELECT setval('"la_user_USER_ID_seq"', 97, true);
+SELECT setval('"la_user_role_ID_USER_ROLE_seq"', 2, false);
+SELECT setval('"la_user_role_ID_seq"', 2, false);
+ALTER SEQUENCE "zzzz_id_seq"
+OWNED BY "zzzz"."id";
+SELECT setval('"zzzz_id_seq"', 2, false);
